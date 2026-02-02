@@ -11,6 +11,7 @@ function trocarCor() {
     // Pega a cor informada pelo usuário
     const corUsuario = document.getElementById('cor-usuario').value
 
+    // Troca de cor em português (lima, bege, carmesim, rosa-choque)
     if (corUsuario == 'lima') {
         document.documentElement.style.setProperty('--color-bg', 'lime')
     } else if (corUsuario == 'bege') {
@@ -24,14 +25,17 @@ function trocarCor() {
     }
 }
 
+// Botão de cor verde
 function trocarCorVerde(){
     document.documentElement.style.setProperty('--color-bg', 'green')
 }
 
+// Botão de cor vermelho
 function trocarCorVermelho(){
     document.documentElement.style.setProperty('--color-bg', 'red')
 }
 
+// Ativa somente com click
 botaoTrocarCor.addEventListener('click', trocarCor)
 botaoVerde.addEventListener('click', trocarCorVerde)
 botaoVermelho.addEventListener('click', trocarCorVermelho)
