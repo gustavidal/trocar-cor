@@ -9,6 +9,8 @@ a {
     color: inherit;
 }
 
-ul, li, ol {
+ul,
+li,
+ol {
     list-style: none;
 }

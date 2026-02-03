@@ -26,12 +26,12 @@ function trocarCor() {
 }
 
 // Botão de cor verde
-function trocarCorVerde(){
+function trocarCorVerde() {
     document.documentElement.style.setProperty('--color-bg', 'green')
 }
 
 // Botão de cor vermelho
-function trocarCorVermelho(){
+function trocarCorVermelho() {
     document.documentElement.style.setProperty('--color-bg', 'red')
 }
 
