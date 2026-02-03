@@ -1,5 +1,5 @@
 :root {
-    --color-bg: crimson;
+    --color-bg: yellow;
 }
 
 body {
@@ -25,6 +25,7 @@ button {
     height: 35px;
     width: 100px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #botao-verde {
